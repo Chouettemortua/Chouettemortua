@@ -13,6 +13,13 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           user: Chouettemortua
           template: classic
-          base: header, activity, community, repositories, metadata
-          # C'est cette ligne qui permet de compter tes projets privés !
+          
+          # 1. On ne garde que l'en-tête (avatar/nom) et l'activité (commits)
+          base: header, activity
+        
+          # 2. On ajoute un beau graphique pour tes langages
+          plugin_languages: yes
+          plugin_languages_limit: 4
+          
+          # 3. Paramètre pour les dépôts privés
           repositories_affiliations: owner, collaborator, organization_member
