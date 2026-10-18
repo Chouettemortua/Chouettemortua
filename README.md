@@ -1,5 +1,4 @@
-## Hi there 👋
-# Salut, moi c'est Ewann 👋
+# Bonjour, moi c'est Chouettemortua👋
 
 Élève ingénieur en informatique à Polytech Sophia Antipolis, issu d'une classe préparatoire (CPGE MP2I/MPI). Je m'oriente principalement vers l'intelligence artificielle, les systèmes et la cybersécurité.
 
